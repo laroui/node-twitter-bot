@@ -11,7 +11,7 @@ function retweetRecent() {
 	T.get('search/tweets', {q: "#france OR #auto-entrepreneur OR #entrepreneur", result_type: "recent"}, function (err, data,response) {
 		if (!err) {
 			var tweet = data.statuses[0];
-			var retweetBody = 'Gagnez des euros avec amazon https://amzn.to/2Yb4JBN RT @' + tweet.text;
+			var retweetBody = 'faites des revenues passifs https://amzn.to/2Yb4JBN ' + tweet.text;
 			T.post('statuses/update',{status:retweetBody}, function (err,response) {
 				if (response) {
 					console.log('Quote Tweeted Tweet ID: ' + tweet.id_str);

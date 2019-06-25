@@ -1,0 +1,23 @@
+{
+  "name": "twitter-bot",
+  "version": "1.0.0",
+  "description": "bot on twitter",
+  "main": "bot.js",
+  "scripts": {
+    "test": "go"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/laroui/node-twitter-bot.git"
+  },
+  "keywords": [
+    "twitter",
+    "bot"
+  ],
+  "author": "La Fabryk Web Crafts",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/laroui/node-twitter-bot/issues"
+  },
+  "homepage": "https://github.com/laroui/node-twitter-bot#readme"
+}
